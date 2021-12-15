@@ -1,0 +1,8 @@
+Hi {{ name }},
+Thanks for purchasing the following item/s from our online store.
+Your ordered products will be delived shortly in your delivery location
+
+Enjoy your day and be sure to order from our online store in the coming days,
+we are happy to provide you with just the product you need.
+
+Thankyou!!

@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}Purchase Success{% endblock title %}
+{% block content %} 
+<h1>Hello {{user.first_name}}</h1>
+<h1>Your purchase was successful you must have got an email sir/mam about your purchase being successful.</h1>
+<a href="{% url 'home' %}">Home</a>
+{% endblock content %}

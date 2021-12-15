@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}My Shop{% endblock title %}
+{% block content %} 
+
+<h1>This is my shop.</h1>
+{% if products %}
+{% for product in products %}
+<div class="div" style="width: 80%;height: fit-content;border: 2px solid violet;background: #005;color:violet;">
+<h2>{{product.sno}}. {{product.title}}</h2>
+<h5>It costs {{product.price}}</h5>
+<a href="{% url 'purchase_success' %}" style="color:yellow">Purchase</a>
+</div>
+{% endfor %}
+{% endif %}
+{% endblock content %}
